@@ -52,4 +52,12 @@ function izracunaj() {
 
 document.getElementById("dugme").addEventListener("click", izracunaj);
 
+function resetuj() {
+    if (window.confirm("Da li ste sigurna da zelite da restujete stranicu?")) 
+    location.reload(true);
+    
+}
+document.getElementById("resetuj").addEventListener("click", resetuj);
+
+
  
